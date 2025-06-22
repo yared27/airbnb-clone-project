@@ -114,3 +114,19 @@ All payment transactions are handled through trusted third-party providers, ensu
 
 By implementing these measures, the project ensures that user data, booking records, and payment details remain confidential, accurate, and protected from malicious threats.
 
+
+## ⚙️ CI/CD Pipeline
+
+CI/CD (Continuous Integration and Continuous Deployment) ensures that all changes to the codebase are automatically tested and deployed, improving code quality and accelerating development.
+
+### 📌 Key Benefits:
+- **Early Bug Detection:** Automated tests run with each code push to prevent broken features.
+- **Fast Feedback Loop:** Developers get immediate feedback on changes.
+- **Reliable Deployment:** Automates the deployment process, reducing human errors and ensuring consistency across environments.
+
+### 🧰 Tools Used:
+- **GitHub Actions** – for automating workflows such as testing, building, and deployment.
+- **Docker** – for creating consistent development and production environments.
+- **Heroku / Render / Railway (or any cloud platform)** – for deploying the application live.
+
+By using CI/CD pipelines, the Airbnb Clone project maintains high code quality, minimizes downtime, and ensures a smooth developer experience.
