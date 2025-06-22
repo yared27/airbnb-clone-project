@@ -71,3 +71,46 @@ Automated pipelines for testing and deploying code changes.
 
 #### Payment
 - `id`, `booking_id`, `amount`, `payment_method`, `status`, `paid_at`
+
+## ✨ Feature Breakdown
+
+### 👤 User Management  
+User management is a critical component of the platform. It includes features like user registration, login, email verification, authorization, and session management to ensure secure access and personalized experiences.
+
+### 🏠 Property Management  
+Hosts can list properties with detailed descriptions, pricing, and availability. This feature enables dynamic control over property visibility and data updates.
+
+### 📅 Booking System  
+The booking system is the core of the project. It allows users to reserve properties, track booking status, manage dates, and receive confirmations—streamlining the reservation process for both guests and hosts.
+
+### ⭐ Rating & Review System  
+Users can rate and review properties after their stay. This feature promotes trust and transparency by helping future guests make informed decisions.
+
+### 💳 Payment Processing  
+Secure payment processing enables users to complete bookings with integrated payment gateways. It supports real-time transaction handling, receipts, and refund capabilities where applicable.
+
+
+## 🔐 API Security
+
+Securing the backend APIs is vital for maintaining user trust, preventing data breaches, and ensuring the integrity of transactions. The following key security measures will be implemented:
+
+### ✅ Authentication  
+Users must prove their identity before accessing protected resources using secure methods such as JWT (JSON Web Tokens). This helps prevent unauthorized access and impersonation.
+
+### ✅ Authorization  
+Role-based access control (RBAC) ensures users only access features and data they are permitted to. For example, a guest shouldn't access host-only features or admin controls.
+
+### ✅ Rate Limiting  
+Protects the API from abuse, brute-force attacks, or denial-of-service (DoS) attempts by limiting the number of requests a user or IP address can make in a given time.
+
+### ✅ Data Validation & Sanitization  
+Every input from the user is validated and sanitized to prevent common attacks like SQL Injection and Cross-Site Scripting (XSS).
+
+### ✅ HTTPS Enforcement  
+All API communication will be secured over HTTPS to encrypt data in transit, preventing man-in-the-middle attacks.
+
+### ✅ Secure Payment Handling  
+All payment transactions are handled through trusted third-party providers, ensuring sensitive data like card information is never stored or mishandled.
+
+By implementing these measures, the project ensures that user data, booking records, and payment details remain confidential, accurate, and protected from malicious threats.
+
